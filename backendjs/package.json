@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "mqtt": "^5.10.4",
+    "socket.io": "^4.8.1"
+  },
+  "scripts": {
+  "start": "bun run server.js"
+},
+  "name": "backendjs",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
