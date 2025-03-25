@@ -1,11 +1,12 @@
 {
   "dependencies": {
     "mqtt": "^5.10.4",
+    "nodemon": "^3.1.9",
     "socket.io": "^4.8.1"
   },
   "scripts": {
-  "start": "bun run server.js"
-},
+    "start": "bun run server.js"
+  },
   "name": "backendjs",
   "module": "index.ts",
   "type": "module",
